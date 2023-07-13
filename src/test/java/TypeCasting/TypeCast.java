@@ -2,17 +2,17 @@ package TypeCasting;
 
 public class TypeCast {
 
-    public void WideningCasting(){
+    public void WideningCasting() {
 
-        int myInt =5;
+        int myInt = 5;
         float myFloat = myInt;
         System.out.println(myFloat);
 
     }
 
-    public void NarrowingCasting(){
+    public void NarrowingCasting() {
         float myVar = 5.6f;
-        int myInt = (int)myVar;
+        int myInt = (int) myVar;
         System.out.println(myInt);
     }
 

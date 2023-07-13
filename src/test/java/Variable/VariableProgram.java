@@ -10,12 +10,12 @@ public class VariableProgram {
 
     public void localVariableEx() {
         //local variable a
-        int a =5;
+        int a = 5;
 //        int b =7;
 
-        System.out.println("Value of local variable is:"+a);
-        System.out.println("value of instance variable is:"+b);
-        System.out.println("value of static variable is:"+course);
+        System.out.println("Value of local variable is:" + a);
+        System.out.println("value of instance variable is:" + b);
+        System.out.println("value of static variable is:" + course);
 
     }
 
