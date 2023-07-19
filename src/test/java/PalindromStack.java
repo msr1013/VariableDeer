@@ -21,7 +21,7 @@ public class PalindromStack {
         String reverseString = "";
 
         while (!stack.empty()) {
-            reverseString = reverseString + stack.pop();
+            reverseString =  stack.pop()+reverseString;
         }
         System.out.println(reverseString);
 
